@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure-i9n=(&3d%a^r*h%(5!jz&tw13v++xw*kziy6xv0m$&us@op-vv
 DEBUG = True
 
 # ALLOWED_HOSTS = ['*', '192.168.2.1']
-ALLOWED_HOSTS = ['myproject.herokuapp.com']
+ALLOWED_HOSTS = ['ramasite-app.herokuapp.com']
 
 
 # Application definition
