@@ -15,8 +15,8 @@ SECRET_KEY = 'django-insecure-i9n=(&3d%a^r*h%(5!jz&tw13v++xw*kziy6xv0m$&us@op-vv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', '192.168.2.1']
-# ALLOWED_HOSTS = ['myproject.herokuapp.com']
+# ALLOWED_HOSTS = ['*', '192.168.2.1']
+ALLOWED_HOSTS = ['myproject.herokuapp.com']
 
 
 # Application definition
@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'import_export',
 
     'ckeditor',
     'ckeditor_uploader',
